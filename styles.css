@@ -1,0 +1,109 @@
+/*html,body{				 if we wanna use percentage to the height
+	height: 100%;
+}*/
+
+
+body                /* to eliminate the default margin for body */
+{
+	margin: 0px;
+}
+
+/* body header */
+
+#body-header
+{
+/*height: 60%;*/
+ height: 60vh;
+ opacity: 0.8;
+ background-image: url(images/macbook_mouse.jpg);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+}
+
+
+/* horizontal-list */
+
+.horizontal-list
+{
+	list-style: none; /* to eliminate list style and no need to add if we convert it to inline */ 
+	padding: 0px;
+	margin: 0px;
+}
+
+.horizontal-list li
+{
+	display: inline-block;
+	margin: 0 8px 0 8px;
+	font-size: 20px;
+}
+
+.horizontal-list a 
+{
+ 	color: white;
+ 	text-decoration: none;
+}
+
+.horizontal-list a:hover
+{
+	color: lightgrey;
+	text-decoration: underline;
+	transition: color 0.8s;
+}
+
+/* created class to make text center so that it can be used anywhere */
+
+.text-center
+{
+	text-align: center;
+}
+
+/* name heading */
+
+#header-name
+{
+color: white;
+text-align: center;
+font-family: cursive;
+font-size: 5rem;
+letter-spacing: 0.1rem;
+margin-bottom: 0px;
+}
+
+.horizontal-list a i:hover
+{
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 6px 5px rgba(230, 196, 196, 0.2);
+}
+
+/* about section */
+
+#para
+{
+	 width: 70%;
+/*    text-align: justify;*/
+	color: gray;
+	line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+strong
+{
+	color: blueviolet;
+}
+
+#my-img img
+{
+
+	position: relative;
+	top: -80px;
+	margin-left: 40%;
+	border-radius: 50%;
+	width: 20%;
+	height: 30vh;
+	box-shadow: 0px 0px 10px 6px rgba(212, 209, 210, 0.71);
+}
+
+

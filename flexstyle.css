@@ -1,0 +1,118 @@
+body
+{
+	margin: 0;
+}
+
+/* container */
+
+#container
+{
+	height: auto;
+	width: auto;
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+
+#container div
+{
+	height: 200px;
+	width: 200px;
+}
+
+#div1
+{
+	background-color: red;
+}
+
+#div2
+{
+	background-color: blue;
+}
+
+#div3
+{
+	background-color: yellow;
+}
+
+#div4
+{
+	background-color: green;
+}
+
+
+
+/*ball container*/
+
+#balls-container
+{
+	width: 60vw;
+	height: 60vh;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px 7px grey;
+	display: flex;
+	flex-direction: column;
+}
+
+#ball-div1
+{
+	order: 0;
+	width: 5%;
+	height: 10%;
+	border-radius: 50%;
+	background-color: pink;
+}
+
+#ball-div2
+{
+	order: 4;
+	width: 10%;
+	height: 15%;
+	border-radius: 50%;
+	background-color: purple;
+}
+
+#ball-div3
+{
+	order: 3;
+	width: 15%;
+	height: 20%;
+	border-radius: 50%;
+	background-color: green;
+}
+
+#ball-div4
+{
+	order: 5;
+	width: 20%;
+	height: 25%;
+	border-radius: 50%;
+	background-color: blueviolet;
+}
+
+#ball-div5
+{
+	order: 1;
+	width: 25%;
+	height: 30%;
+	border-radius: 50%;
+	background-color: yellow;
+}
+
+
+#ball-div6
+{
+	order: 3;
+	width: 30%;
+	height: 35%;
+	border-radius: 50%;
+	background-color: lightgrey;
+}
